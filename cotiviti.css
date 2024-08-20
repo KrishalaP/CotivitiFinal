@@ -1,0 +1,366 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    background-color: #31006E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+body{
+    font-size: "Arial";
+}
+header img{
+    width:220px;
+    height:auto;
+}
+ header nav{
+    float: right;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    display: inline-block;
+}
+#menu li{
+    display:inline-block;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#hero{
+    background: #31006E;
+    background-image: url(images/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 650px auto;
+    color:white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+     
+}
+#white-box{
+    width: 50%;
+    background: white;
+    padding: 20px 30px;
+    margin-top: 20px;
+
+}
+#white-box small{
+    color: #7f7f7f;
+
+}
+#white-box{
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#white-box p{
+    color: #f0047f; 
+  
+}
+#whoweare{
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    background-position: 700px bottom;
+    background-size: 500px auto;
+    padding-top:150px ;
+    padding-bottom: 150px;
+}
+.w50{
+    width:50%;
+}
+section p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#workwithus{
+    background: #00ADEE;
+    color:white;
+    text-align: center;
+   
+
+}
+.btn{
+    border:1px solid  #31006E;
+    padding:15px 20px;
+    text-decoration: none;
+    color:#31006E;
+    display: inline-block;
+}
+#btn-white{
+    color:white;
+    border-color: white;
+}
+.btn:hover{
+    background: #f0047f;
+    color: white;
+}
+#parallax{
+    background-image: url(images/parallax-home.jpg);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+#team h1,
+#team p{
+text-align: center;
+}
+#vacancy{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#vacancy a{
+    text-decoration: none;
+    color: #f0047f;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding-top:10px ;
+    padding-bottom:10px ;
+   
+}
+#vacancy a img{
+    float: right;
+}
+#search{
+    padding:80px;
+    text-align: center;
+    background-image: url(images/join.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+
+}
+#corporate{
+    width:50%;
+    text-align: left;
+   display: inline-block;
+}
+#initivates{
+    padding: 80px;
+    background-image: url(images/csr-section-bg.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-position: center bottom;
+    color:white;
+    float:right;
+    padding-bottom: 380px;
+    
+}
+#team{
+    background-position: center bottom;
+    padding-bottom: 20px;
+}
+#graphics{
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    background-position: right;
+    display: inline-block;
+    float: right;
+    text-align: left;
+    padding-left: 200px; 
+}
+footer{
+    padding-top: 500px;
+    padding-bottom: 35px;
+}
+
+
+.divs {
+    font-family: arial;
+}
+
+#navigate {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contact {
+    width: 25%;
+    display: inline-block;
+}
+   
+.nav1{
+    display: inline-block;
+    width: 25%;
+}
+.nav1 a{
+    color: grey;
+    text-decoration: none;
+    padding-right: 30px;
+    line-height: 1.5;
+    
+}
+.nav1 ul{
+    
+    padding-bottom: 60px;
+    list-style-type: none;
+    
+}
+footer h3{
+    color: #10069f;
+    text-align: left;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 40;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+ 
+#contact img{
+    margin-top: 30px;
+   background-position: right;
+}
+#navigate p, #contact p{
+   
+    text-align: left;
+    color: gray;
+}
+
+ #workwithus a{
+    color: white;
+    border: 1px solid white;
+
+}
+#workwithus p{
+    color: white;
+
+}
+@media(max-width:630px){
+    /* .container{ */
+        /* display: inline-block;
+        width: 50%; */
+
+    
+    header nav{
+        display: none;
+    }
+    #menu a{
+        display:none;
+    }
+    #hero{
+        background-image: none;
+        display: inline-block;
+        width: 100%;
+    }
+    #whoweare{
+        width: 100%;
+        display: inline-block;
+        background-image: url(images/building.png);
+        background-repeat: no-repeat;
+            background-position: 200px bottom;
+           background-size: 300px auto;
+             padding-top:50px ;
+           padding-bottom: 50px;
+    }
+    #white-box{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    #parallax{
+        width: 100%;
+    }
+    #team{
+        width: 100%;
+
+    }
+    /* #initivates{
+        display: inline-block;
+        width: 50%;
+
+    } */
+    #search{
+
+        width: 100%;
+
+    }
+    #corporate{
+        display: inline-block;
+        width: 100%;
+
+    }
+    #initivates
+    {
+        padding-top: 50px;
+        width: 100%;
+        display: inline-block;
+    }
+    #graphics{
+        
+        width: 100%;
+        display:inline-block;
+        float: none;
+    }
+    /* #footer{
+        width: 100%;
+    } */
+    #navigate
+    {
+        width: 90%;
+    }
+    #nav1{
+        width: 100%;
+    }
+    #contact{
+        width: 50%;
+    }
+    
+
+   
+}
+@media(min-width:630px) and(max-width:800px){
+       
+    header nav{
+        display: none;
+    }
+    #menu a{
+        display:none;
+    }
+    #hero{
+        background-image: none;
+        display: inline-block;
+        width: 100%;
+    }
+    #whoweare{
+        width: 100%;
+        display: inline-block;
+        background-image: url(images/building.png);
+        background-repeat: no-repeat;
+            background-position: 200px bottom;
+           background-size: 300px auto;
+             padding-top:50px ;
+           padding-bottom: 50px;
+    }
+    #white-box{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    #parallax{
+        width: 100%;
+    }
+    #team{
+        width: 100%;
+
+    }
+
+}
+ 
